@@ -3,14 +3,12 @@ package org.example.book.model;
 import java.util.List;
 
 /**
- * @author huaziqing
+ * @author huaiziqng
  */
 
 public class Book {
     // 图书唯一标识符（数据库主键）
     private int bookId;
-
-
     // 国际标准书号（13位数字）
     private String isbn;
     // 图书标题
